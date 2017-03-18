@@ -2,12 +2,12 @@
 	include 'header.php';
 	
 function db_connect1(){
-	$db_host = 'localhost';
-	$db_user= 'root';
-	$db_pass= 'Beer1234';
+	$db_host = ' ';
+	$db_user= ' ';
+	$db_pass= ' ';
 	//$db_pass='';
-	//$db_name= 'CheapBeer';
-	$db_name= 'cheapbeerprices';
+	//$db_name= ' ';
+	$db_name= ' ';
 	global $connection;
 	$connection = mysql_connect($db_host,$db_user,$db_pass) 
 		or die ("cannot connect to $db_host as $db_user".mysql_error());
@@ -146,7 +146,7 @@ CoinWidgetCom.go({
   		ga('send', 'pageview');
 
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmv08kSZpkCuBwQEUsqqnxJ7m_ZBro_OQ&signed_in=true&libraries=places&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key= &signed_in=true&libraries=places&callback=initMap" async defer></script>
 <?php 
 db_close1();
 	include 'footer.php';
